@@ -1,0 +1,16 @@
+[package]
+name = "coin_flip_game"
+version = "1.0.0"
+authors = []
+
+[addresses]
+coin_flip_address='c91137876e45c4ddfb8dd494caeaf85790d325052c590b09b5e753b998bf0e61'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
